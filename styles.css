@@ -1,2 +1,47 @@
 
 /* Your CSS Code here. */
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 20px;
+}
+
+.size-chart {
+    width: 550px;
+    margin: 0 auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    font-size: 14px;
+}
+
+th,
+td {
+    border: 1px solid #222;
+    padding: 3px;
+    height: 16px;
+    text-align: right;
+}
+
+th {
+    background-color: #c05050;
+    color: white;
+    font-weight: normal;
+    text-align: left;
+}
+
+td:first-child {
+    text-align: left;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f0dada;
+}
